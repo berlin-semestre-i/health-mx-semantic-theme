@@ -153,4 +153,4 @@
 @h3FontWeight : 500;
 @h3TextTransform : Uppercase;
 @h3LetterSpacing : 3.09px;
-@h3Color: @lightHealth;
+@h3Color: @lightPrimaryColor;

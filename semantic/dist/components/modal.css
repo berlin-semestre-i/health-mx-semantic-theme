@@ -83,7 +83,7 @@
   padding: 1.25rem 1.5rem;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(61, 81, 112, 0.85);
   border-bottom: 1px solid #BECAD6;
 }
 .ui.modal > .header:not(.ui) {
@@ -318,7 +318,7 @@
   color: #3D5170;
 }
 .ui.inverted.dimmer > .ui.basic.modal > .header {
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(61, 81, 112, 0.85);
 }
 
 /* Resort to margin positioning if legacy */

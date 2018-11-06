@@ -75,7 +75,7 @@
 @headerFontWeight: 600;
 @headerFontSize: 12px;
 @headerLineHeightOffset: -(@lineHeight - 1em) / 2;
-@headerColor: @lightHealth;
+@headerColor: @lightPrimaryColor;
 @headerTextTransform: uppercase;
 @headerLetterSpacing: 3.09px;
 
@@ -120,7 +120,7 @@
 
 /* Paragraph */
 @paragraphDistance: 0.5em;
-@paragraphColor: @healthblue;
+@paragraphColor: @primaryColor;
 
 /* Dimmer */
 @dimmerZIndex: 10;

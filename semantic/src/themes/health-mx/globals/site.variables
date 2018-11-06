@@ -53,10 +53,10 @@
 --------------------*/
 
 @primaryColor        : @healthblue;
-@secondaryColor      : @black;
+@secondaryColor      : @healthgrey;
 
-@lightPrimaryColor   : @lightBlue;
-@lightSecondaryColor : @lightBlack;
+@lightPrimaryColor   : @lightHealth;
+@lightSecondaryColor : @lightHealthGrey;
 
 /*--------------
   Page Heading
@@ -235,7 +235,7 @@
 @grey             : #767676;
 @black            : #1B1C1D;
 @healthblue       : #3D5170;
-@doctorblue       : #3D5170;
+@healthgrey       : #E8ECF0;
 
 /*---  Light Colors  ---*/
 @lightRed         : #FF695E;
@@ -252,6 +252,7 @@
 @lightGrey        : #DCDDDE;
 @lightBlack       : #545454;
 @lightHealth      : #818EA3;
+@lightHealthGrey  : #F4F6F8;
 
 /*---   Neutrals  ---*/
 @fullBlack        : #000000;
@@ -435,15 +436,15 @@
      Neutral Text
 --------------------*/
 
-@darkTextColor               : rgba(0, 0, 0, 0.85);
-@mutedTextColor              : rgba(0, 0, 0, 0.6);
-@lightTextColor              : rgba(0, 0, 0, 0.4);
+@darkTextColor               : rgba(61, 81, 112, 0.85);
+@mutedTextColor              : rgba(61, 81, 112, 0.6);
+@lightTextColor              : rgba(61, 81, 112, 0.4);
 
-@unselectedTextColor         : rgba(0, 0, 0, 0.4);
-@hoveredTextColor            : rgba(0, 0, 0, 0.8);
-@pressedTextColor            : rgba(0, 0, 0, 0.9);
-@selectedTextColor           : rgba(0, 0, 0, 0.95);
-@disabledTextColor           : rgba(0, 0, 0, 0.2);
+@unselectedTextColor         : rgba(61, 81, 112, 0.4);
+@hoveredTextColor            : rgba(61, 81, 112, 0.8);
+@pressedTextColor            : rgba(61, 81, 112, 0.9);
+@selectedTextColor           : rgba(61, 81, 112, 1);
+@disabledTextColor           : rgba(61, 81, 112, 0.2);
 
 @invertedTextColor           : rgba(255, 255, 255, 0.9);
 @invertedMutedTextColor      : rgba(255, 255, 255, 0.8);
