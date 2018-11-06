@@ -169,11 +169,8 @@
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  margin-bottom: 20px;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: #818EA3;
-  text-transform: uppercase;
-  letter-spacing: 3.09px;
 }
 
 /* Default Header Size */
@@ -257,9 +254,6 @@
 .ui.cards > .card > .content p,
 .ui.card > .content p {
   margin: 0em 0em 0.5em;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  color: #3D5170;
 }
 .ui.cards > .card > .content p:last-child,
 .ui.card > .content p:last-child {
@@ -298,10 +292,6 @@
 .ui.cards > .card > .content a:not(.ui),
 .ui.card > .content a:not(.ui) {
   color: #007BFF;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
 }

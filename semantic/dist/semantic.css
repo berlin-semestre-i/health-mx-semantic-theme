@@ -4260,7 +4260,7 @@ template {
 
 .ui.primary.buttons .button,
 .ui.primary.button {
-  background-color: #007BFF;
+  background-color: #3D5170;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4273,7 +4273,7 @@ template {
 
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: #0067D6;
+  background-color: #324562;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -5362,7 +5362,7 @@ i.flag:not(.icon) {
 i.flag:not(.icon):before {
   display: inline-block;
   content: '';
-  background: url("./themes/default/assets/images/flags.png") no-repeat -108px -1976px;
+  background: url("./themes/health-mx/assets/images/flags.png") no-repeat -108px -1976px;
   width: 16px;
   height: 11px;
 }
@@ -6752,10 +6752,6 @@ h2.ui.header {
 
 h3.ui.header {
   font-size: 1.28571429rem;
-  color: #818EA3;
-  font-weight: 500;
-  text-transform: Uppercase;
-  letter-spacing: 3.09px;
 }
 
 h4.ui.header {
@@ -7453,8 +7449,8 @@ a.ui.inverted.grey.header:hover {
 
 @font-face {
   font-family: 'Icons';
-  src: url("./themes/default/assets/fonts/icons.eot");
-  src: url("./themes/default/assets/fonts/icons.eot?#iefix") format('embedded-opentype'), url("./themes/default/assets/fonts/icons.woff2") format('woff2'), url("./themes/default/assets/fonts/icons.woff") format('woff'), url("./themes/default/assets/fonts/icons.ttf") format('truetype'), url("./themes/default/assets/fonts/icons.svg#icons") format('svg');
+  src: url("./themes/health-mx/assets/fonts/icons.eot");
+  src: url("./themes/health-mx/assets/fonts/icons.eot?#iefix") format('embedded-opentype'), url("./themes/health-mx/assets/fonts/icons.woff2") format('woff2'), url("./themes/health-mx/assets/fonts/icons.woff") format('woff'), url("./themes/health-mx/assets/fonts/icons.ttf") format('truetype'), url("./themes/health-mx/assets/fonts/icons.svg#icons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -12732,8 +12728,8 @@ i.icon.youtube.play:before {
 
 @font-face {
   font-family: 'outline-icons';
-  src: url("./themes/default/assets/fonts/outline-icons.eot");
-  src: url("./themes/default/assets/fonts/outline-icons.eot?#iefix") format('embedded-opentype'), url("./themes/default/assets/fonts/outline-icons.woff2") format('woff2'), url("./themes/default/assets/fonts/outline-icons.woff") format('woff'), url("./themes/default/assets/fonts/outline-icons.ttf") format('truetype'), url("./themes/default/assets/fonts/outline-icons.svg#icons") format('svg');
+  src: url("./themes/health-mx/assets/fonts/outline-icons.eot");
+  src: url("./themes/health-mx/assets/fonts/outline-icons.eot?#iefix") format('embedded-opentype'), url("./themes/health-mx/assets/fonts/outline-icons.woff2") format('woff2'), url("./themes/health-mx/assets/fonts/outline-icons.woff") format('woff'), url("./themes/health-mx/assets/fonts/outline-icons.ttf") format('truetype'), url("./themes/health-mx/assets/fonts/outline-icons.svg#icons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -13238,8 +13234,8 @@ i.icon.star.empty:before {
 
 @font-face {
   font-family: 'brand-icons';
-  src: url("./themes/default/assets/fonts/brand-icons.eot");
-  src: url("./themes/default/assets/fonts/brand-icons.eot?#iefix") format('embedded-opentype'), url("./themes/default/assets/fonts/brand-icons.woff2") format('woff2'), url("./themes/default/assets/fonts/brand-icons.woff") format('woff'), url("./themes/default/assets/fonts/brand-icons.ttf") format('truetype'), url("./themes/default/assets/fonts/brand-icons.svg#icons") format('svg');
+  src: url("./themes/health-mx/assets/fonts/brand-icons.eot");
+  src: url("./themes/health-mx/assets/fonts/brand-icons.eot?#iefix") format('embedded-opentype'), url("./themes/health-mx/assets/fonts/brand-icons.woff2") format('woff2'), url("./themes/health-mx/assets/fonts/brand-icons.woff") format('woff'), url("./themes/health-mx/assets/fonts/brand-icons.ttf") format('truetype'), url("./themes/health-mx/assets/fonts/brand-icons.svg#icons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -25612,17 +25608,6 @@ Floated Menu / Item
      Sizes
 ---------------*/
 
-/* Standard */
-
-.ui.standard.menu {
-  font-size: 1.28571429rem;
-}
-
-.ui.standard.vertical.menu {
-  width: 84px;
-  background-color: #3D5170;
-}
-
 /* Mini */
 
 .ui.mini.menu {
@@ -28046,11 +28031,8 @@ Floated Menu / Item
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  margin-bottom: 20px;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: #818EA3;
-  text-transform: uppercase;
-  letter-spacing: 3.09px;
 }
 
 /* Default Header Size */
@@ -28140,9 +28122,6 @@ Floated Menu / Item
 .ui.cards > .card > .content p,
 .ui.card > .content p {
   margin: 0em 0em 0.5em;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  color: #3D5170;
 }
 
 .ui.cards > .card > .content p:last-child,
@@ -28185,10 +28164,6 @@ Floated Menu / Item
 .ui.cards > .card > .content a:not(.ui),
 .ui.card > .content a:not(.ui) {
   color: #007BFF;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
 }

@@ -1975,15 +1975,6 @@ Floated Menu / Item
 ---------------*/
 
 
-/* Standard */
-.ui.standard.menu {
-  font-size: 1.28571429rem;
-}
-.ui.standard.vertical.menu {
-  width: 84px;
-  background-color: #3D5170;
-}
-
 /* Mini */
 .ui.mini.menu {
   font-size: 0.78571429rem;
