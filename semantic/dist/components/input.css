@@ -58,13 +58,13 @@
 
 /* browsers require these rules separate */
 .ui.input > input::-webkit-input-placeholder {
-  color: #CFCFCF;
+  color: #cad3e2;
 }
 .ui.input > input::-moz-placeholder {
-  color: #CFCFCF;
+  color: #cad3e2;
 }
 .ui.input > input:-ms-input-placeholder {
-  color: #CFCFCF;
+  color: #cad3e2;
 }
 
 
@@ -142,21 +142,21 @@
 .ui.input > input:focus {
   border-color: #85B7D9;
   background: #FFFFFF;
-  color: rgba(61, 81, 112, 0.8);
+  color: #3D5170;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 .ui.input.focus > input::-webkit-input-placeholder,
 .ui.input > input:focus::-webkit-input-placeholder {
-  color: #CFCFCF;
+  color: #b9c6d9;
 }
 .ui.input.focus > input::-moz-placeholder,
 .ui.input > input:focus::-moz-placeholder {
-  color: #CFCFCF;
+  color: #b9c6d9;
 }
 .ui.input.focus > input:-ms-input-placeholder,
 .ui.input > input:focus:-ms-input-placeholder {
-  color: #CFCFCF;
+  color: #b9c6d9;
 }
 
 /*--------------------

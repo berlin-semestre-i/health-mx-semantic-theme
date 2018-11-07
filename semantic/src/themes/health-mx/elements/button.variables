@@ -9,7 +9,7 @@
 /* Button */
 @verticalMargin: 0em;
 @horizontalMargin: 0.25em;
-@backgroundColor: #E8ECF0;
+@backgroundColor: @blue;
 @backgroundImage: none;
 @background: @backgroundColor @backgroundImage;
 @lineHeight: 1em;
@@ -23,7 +23,7 @@
 @tapColor: transparent;
 @fontFamily: @pageFont;
 @fontWeight: 500;
-@textColor: @blue;
+@textColor: @invertedTextColor;
 @textShadow: none;
 @invertedTextShadow: @textShadow;
 @borderRadius: 5px;
@@ -84,17 +84,17 @@
 --------------------*/
 
 /* Hovered */
-@hoverBackgroundColor: @lightGrey;
+@hoverBackgroundColor: @blueHover;
 @hoverBackgroundImage: @backgroundImage;
 @hoverBoxShadow: @boxShadow;
-@hoverColor: @blue;
+@hoverColor: @invertedTextColor;
 @iconHoverOpacity: 0.85;
 
 /* Focused */
-@focusBackgroundColor: @hoverBackgroundColor;
+@focusBackgroundColor: @blueFocus;
 @focusBackgroundImage: '';
 @focusBoxShadow: '';
-@focusColor: @hoveredTextColor;
+@focusColor: @invertedTextColor;
 @iconFocusOpacity: 0.85;
 
 /* Disabled */
@@ -102,26 +102,26 @@
 @disabledBoxShadow: none;
 
 /* Pressed Down */
-@downBackgroundColor: #BABBBC;
+@downBackgroundColor: @blueDown;
 @downBackgroundImage: '';
 @downPressedShadow: none;
 @downBoxShadow:
   @borderBoxShadow,
   @downPressedShadow
 ;
-@downColor: @pressedTextColor;
+@downColor: @invertedTextColor;
 
 /* Active */
-@activeBackgroundColor: #C0C1C2;
+@activeBackgroundColor: @blue;
 @activeBackgroundImage: none;
-@activeColor: @selectedTextColor;
+@activeColor: @invertedTextColor;
 @activeBoxShadow: @borderBoxShadow;
 
 /* Active + Hovered */
-@activeHoverBackgroundColor: @activeBackgroundColor;
+@activeHoverBackgroundColor: @hoverBackgroundColor;
 @activeHoverBackgroundImage: none;
-@activeHoverColor: @activeColor;
-@activeHoverBoxShadow: @activeBoxShadow;
+@activeHoverColor: @hoverColor;
+@activeHoverBoxShadow: @hoverBoxShadow;
 
 /* Loading */
 @loadingOpacity: 1;
@@ -206,7 +206,7 @@
 
 /* Basic Hover */
 @basicHoverBackground: #FFFFFF;
-@basicHoverTextColor: @hoveredTextColor;
+@basicHoverTextColor: @hoverColor;
 @basicHoverBoxShadow:
   0px 0px 0px @basicBorderSize @selectedBorderColor inset,
   0px 0px 0px 0px @borderColor inset
@@ -323,7 +323,7 @@
 @primaryBoxShadow: @coloredBoxShadow;
 
 @secondaryBackgroundImage: @coloredBackgroundImage;
-@secondaryTextColor: @invertedTextColor;
+@secondaryTextColor: @blue;
 @secondaryTextShadow: @invertedTextShadow;
 @lightSecondaryTextColor: @invertedTextColor;
 @secondaryBoxShadow: @coloredBoxShadow;
