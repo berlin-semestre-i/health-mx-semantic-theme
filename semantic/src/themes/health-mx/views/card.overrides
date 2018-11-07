@@ -1,0 +1,34 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.card,.ui.cards>.card {
+  width: fit-content;
+}
+
+.ui.card>.content p,.ui.cards>.card>.content p {
+  margin: 0 0 .5em;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  color: #3d5170;
+}
+
+.ui.card>.content>.header,.ui.cards>.card>.content>.header:not(.ui) {
+  display: block;
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  color: #818ea3;
+  text-transform: uppercase;
+  letter-spacing: 3.09px;
+}
+
+.ui.card>.content a:not(.ui),.ui.cards>.card>.content a:not(.ui) {
+  color: #007bff;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: color .1s ease;
+  transition: color .1s ease;
+}
