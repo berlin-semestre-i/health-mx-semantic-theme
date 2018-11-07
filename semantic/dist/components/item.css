@@ -142,7 +142,7 @@
   margin: -0.21425em 0em 0em;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(61, 81, 112, 0.85);
 }
 
 /* Default Header Size */
@@ -238,15 +238,15 @@
 
 /* Header */
 .ui.items > .item > .content > a.header {
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(61, 81, 112, 0.85);
 }
 .ui.items > .item > .content > a.header:hover {
-  color: #1e70bf;
+  color: #0069d9;
 }
 
 /* Meta */
 .ui.items > .item .meta > a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(61, 81, 112, 0.4);
 }
 .ui.items > .item .meta > a:not(.ui):hover {
   color: #3D5170;
@@ -306,7 +306,7 @@
   padding: 0em 0em 0em;
   top: 0em;
   left: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(61, 81, 112, 0.4);
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transition: color 0.1s ease;
@@ -452,7 +452,7 @@
 }
 .ui.items a.item:hover .content .header,
 .ui.link.items > .item:hover .content .header {
-  color: #1e70bf;
+  color: #0069d9;
 }
 
 /*--------------

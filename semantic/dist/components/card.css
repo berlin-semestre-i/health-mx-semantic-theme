@@ -169,11 +169,8 @@
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  margin-bottom: 20px;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: #818EA3;
-  text-transform: uppercase;
-  letter-spacing: 3.09px;
 }
 
 /* Default Header Size */
@@ -257,9 +254,6 @@
 .ui.cards > .card > .content p,
 .ui.card > .content p {
   margin: 0em 0em 0.5em;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  color: #3D5170;
 }
 .ui.cards > .card > .content p:last-child,
 .ui.card > .content p:last-child {
@@ -273,7 +267,7 @@
 .ui.cards > .card .meta,
 .ui.card .meta {
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(61, 81, 112, 0.4);
 }
 .ui.cards > .card .meta *,
 .ui.card .meta * {
@@ -298,10 +292,6 @@
 .ui.cards > .card > .content a:not(.ui),
 .ui.card > .content a:not(.ui) {
   color: #007BFF;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
 }
@@ -317,13 +307,13 @@
 }
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #1e70bf;
+  color: #0069d9;
 }
 
 /* Meta */
 .ui.cards > .card .meta > a:not(.ui),
 .ui.card .meta > a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(61, 81, 112, 0.4);
 }
 .ui.cards > .card .meta > a:not(.ui):hover,
 .ui.card .meta > a:not(.ui):hover {
@@ -418,7 +408,7 @@
   padding: 0.75em 1em;
   top: 0em;
   left: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(61, 81, 112, 0.4);
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transition: color 0.1s ease;
@@ -426,11 +416,11 @@
 }
 .ui.cards > .card > .extra a:not(.ui),
 .ui.card > .extra a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(61, 81, 112, 0.4);
 }
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #1e70bf;
+  color: #0069d9;
 }
 
 
@@ -999,6 +989,39 @@ a.ui.card:hover,
          Theme Overrides
 *******************************/
 
+.ui.card,
+.ui.cards > .card {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.ui.card > .content p,
+.ui.cards > .card > .content p {
+  margin: 0 0 0.5em;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3d5170;
+}
+.ui.card > .content > .header,
+.ui.cards > .card > .content > .header:not(.ui) {
+  display: block;
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: #818ea3;
+  text-transform: uppercase;
+  letter-spacing: 3.09px;
+}
+.ui.card > .content a:not(.ui),
+.ui.cards > .card > .content a:not(.ui) {
+  color: #007bff;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+}
 
 
 /*******************************

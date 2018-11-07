@@ -124,12 +124,12 @@
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(61, 81, 112, 0.85);
 }
 .ui.search > .results .result .description {
   margin-top: 0;
   font-size: 0.92857143em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(61, 81, 112, 0.4);
 }
 .ui.search > .results .result .price {
   float: right;
@@ -179,7 +179,7 @@
 .ui.search > .prompt:focus {
   border-color: rgba(34, 36, 38, 0.35);
   background: #FFFFFF;
-  color: rgba(0, 0, 0, 0.95);
+  color: #3d5170;
 }
 
 /*--------------------
@@ -248,10 +248,10 @@
           box-shadow: none;
 }
 .ui.search > .results .result.active .title {
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(61, 81, 112, 0.85);
 }
 .ui.search > .results .result.active .description {
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(61, 81, 112, 0.85);
 }
 
 /*--------------------
@@ -351,7 +351,7 @@
   font-size: 1em;
   padding: 0.4em 1em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(61, 81, 112, 0.4);
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
 }
 

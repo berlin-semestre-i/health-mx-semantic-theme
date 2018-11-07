@@ -21,7 +21,7 @@
   background-color: #E8E8E8;
   background-image: none;
   padding: 0.5833em 0.833em;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(61, 81, 112, 0.6);
   text-transform: none;
   font-weight: bold;
   border: 0px solid transparent;
@@ -436,11 +436,11 @@ a.ui.label:hover {
   background-color: #E0E0E0;
   border-color: #E0E0E0;
   background-image: none;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(61, 81, 112, 0.8);
 }
 .ui.labels a.label:hover:before,
 a.ui.label:hover:before {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(61, 81, 112, 0.8);
 }
 
 /*-------------------
@@ -451,12 +451,12 @@ a.ui.label:hover:before {
   background-color: #D0D0D0;
   border-color: #D0D0D0;
   background-image: none;
-  color: rgba(0, 0, 0, 0.95);
+  color: #3d5170;
 }
 .ui.active.label:before {
   background-color: #D0D0D0;
   background-image: none;
-  color: rgba(0, 0, 0, 0.95);
+  color: #3d5170;
 }
 
 /*-------------------
@@ -468,13 +468,13 @@ a.ui.active.label:hover {
   background-color: #C8C8C8;
   border-color: #C8C8C8;
   background-image: none;
-  color: rgba(0, 0, 0, 0.95);
+  color: #3d5170;
 }
 .ui.labels a.active.label:ActiveHover:before,
 a.ui.active.label:ActiveHover:before {
   background-color: #C8C8C8;
   background-image: none;
-  color: rgba(0, 0, 0, 0.95);
+  color: #3d5170;
 }
 
 /*-------------------
@@ -1055,7 +1055,7 @@ a.ui.basic.black.label:hover {
 a.ui.basic.label:hover {
   text-decoration: none;
   background: none #FFFFFF;
-  color: #1e70bf;
+  color: #0069d9;
   -webkit-box-shadow: 1px solid #BECAD6;
           box-shadow: 1px solid #BECAD6;
   -webkit-box-shadow: none;

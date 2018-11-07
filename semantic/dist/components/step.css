@@ -340,7 +340,7 @@
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
   background: #F9FAFB;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(61, 81, 112, 0.8);
 }
 
 /* Link Down */
@@ -349,7 +349,7 @@
 .ui.steps a.step:active::after,
 .ui.steps a.step:active {
   background: #F3F4F5;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(61, 81, 112, 0.9);
 }
 
 /* Active */
@@ -361,11 +361,11 @@
   background: #F3F4F5;
 }
 .ui.steps .step.active .title {
-  color: #4183C4;
+  color: #007BFF;
 }
 .ui.ordered.steps .step.active:before,
 .ui.steps .active.step .icon {
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(61, 81, 112, 0.85);
 }
 
 /* Active Arrow */

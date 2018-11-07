@@ -183,28 +183,28 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #4183C4;
+  color: #007BFF;
 }
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #1e70bf;
+  color: #0069d9;
 }
 
 /* Linked Item Icons */
 .ui.list .list > a.item i.icon,
 .ui.list > a.item i.icon {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(61, 81, 112, 0.4);
 }
 
 /* Header Link */
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #4183C4 !important;
+  color: #007BFF !important;
 }
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #1e70bf !important;
+  color: #0069d9 !important;
 }
 
 /* Floated Content */
@@ -368,7 +368,7 @@ ol.ui.list ol li,
 }
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #1e70bf;
+  color: #0069d9;
 }
 
 /* Linking Content */
@@ -376,7 +376,7 @@ ol.ui.list ol li,
   color: rgba(255, 255, 255, 0.9) !important;
 }
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #1e70bf !important;
+  color: #0069d9 !important;
 }
 
 /*-------------------
@@ -406,21 +406,21 @@ ol.ui.list ol li,
 .ui.link.list .item,
 .ui.link.list a.item,
 .ui.link.list .item a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(61, 81, 112, 0.4);
   -webkit-transition: 0.1s color ease;
   transition: 0.1s color ease;
 }
 .ui.link.list.list a.item:hover,
 .ui.link.list.list .item a:not(.ui):hover {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(61, 81, 112, 0.8);
 }
 .ui.link.list.list a.item:active,
 .ui.link.list.list .item a:not(.ui):active {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(61, 81, 112, 0.9);
 }
 .ui.link.list.list .active.item,
 .ui.link.list.list .active.item a:not(.ui) {
-  color: rgba(0, 0, 0, 0.95);
+  color: #3d5170;
 }
 
 /* Inverted */
@@ -452,7 +452,7 @@ ol.ui.list ol li,
   background: transparent;
   padding: 0.5em 0.5em;
   margin: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(61, 81, 112, 0.4);
   border-radius: 0.5em;
   -webkit-transition: 0.1s color ease, 0.1s padding-left ease, 0.1s background-color ease;
   transition: 0.1s color ease, 0.1s padding-left ease, 0.1s background-color ease;
@@ -464,17 +464,17 @@ ol.ui.list ol li,
 .ui.selection.list.list > .item:hover,
 .ui.selection.list > .item:hover {
   background: rgba(0, 0, 0, 0.03);
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(61, 81, 112, 0.8);
 }
 .ui.selection.list .list > .item:active,
 .ui.selection.list > .item:active {
   background: rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(61, 81, 112, 0.9);
 }
 .ui.selection.list .list > .item.active,
 .ui.selection.list > .item.active {
   background: rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.95);
+  color: #3d5170;
 }
 
 /* Inverted */

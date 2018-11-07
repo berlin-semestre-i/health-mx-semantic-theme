@@ -1,0 +1,11 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+h3.ui.header {
+  font-size: @h3;
+  color: @h3Color;
+  font-weight: @h3FontWeight;
+  text-transform: @h3TextTransform;
+  letter-spacing: @h3LetterSpacing;
+}

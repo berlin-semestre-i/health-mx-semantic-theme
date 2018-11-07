@@ -43,7 +43,7 @@
   margin: 0em;
   font-size: 1rem;
   line-height: 1.2em;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(61, 81, 112, 0.6);
 }
 
 /*--------------
@@ -138,10 +138,6 @@ h2.ui.header {
 }
 h3.ui.header {
   font-size: 1.28571429rem;
-  color: #818EA3;
-  font-weight: 500;
-  text-transform: Uppercase;
-  letter-spacing: 3.09px;
 }
 h4.ui.header {
   font-size: 1.07142857rem;
@@ -723,6 +719,13 @@ a.ui.inverted.grey.header:hover {
          Theme Overrides
 *******************************/
 
+h3.ui.header {
+  font-size: 1.28571429rem;
+  color: #818EA3;
+  font-weight: 500;
+  text-transform: Uppercase;
+  letter-spacing: 3.09px;
+}
 
 
 /*******************************

@@ -13,7 +13,6 @@
              Page
 *******************************/
 
-@import url('https://fonts.googleapis.com/css?family=-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto:400,700,400italic,700italic&subset=latin');
 html,
 body {
   height: 100%;
@@ -22,10 +21,12 @@ html {
   font-size: 14px;
 }
 body {
+  margin: 0px;
+  margin-left: 84px;
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #FFFFFF;
+  background: #F4F6F8;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
@@ -101,11 +102,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183C4;
+  color: #007BFF;
   text-decoration: none;
 }
 a:hover {
-  color: #1e70bf;
+  color: #0069d9;
   text-decoration: none;
 }
 
