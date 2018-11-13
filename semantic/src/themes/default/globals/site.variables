@@ -317,9 +317,9 @@
 @strongTransparentBlack     : rgba(0, 0, 0, 0.10);
 @veryStrongTransparentBlack : rgba(0, 0, 0, 0.15);
 
-@subtleTransparentWhite     : rgba(255, 255, 255, 0.02);
-@transparentWhite           : rgba(255, 255, 255, 0.08);
-@strongTransparentWhite     : rgba(255, 255, 255, 0.15);
+@subtleTransparentWhite     : rgba(255, 255, 255, 0.1);
+@transparentWhite           : rgba(255, 255, 255, 0.3);
+@strongTransparentWhite     : rgba(255, 255, 255, 0.5);
 
 /*-------------------
        Accents

@@ -45,6 +45,7 @@
 */
 @relativeBorderRadius: @relative4px;
 @absoluteBorderRadius: @5px;
+@circleBorderRadius: 50%;
 
 @defaultBorderRadius: @absoluteBorderRadius;
 
@@ -323,7 +324,7 @@
 @veryStrongTransparentBlack : rgba(0, 0, 0, 0.15);
 
 @subtleTransparentWhite     : rgba(255, 255, 255, 0.02);
-@transparentWhite           : rgba(255, 255, 255, 0.08);
+@transparentWhite           : rgba(255, 255, 255, 0.2);
 @strongTransparentWhite     : rgba(255, 255, 255, 0.15);
 
 /*-------------------

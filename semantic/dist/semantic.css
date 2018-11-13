@@ -1679,7 +1679,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.basic.inverted.buttons .button:active,
 .ui.basic.inverted.button:active {
-  background-color: rgba(255, 255, 255, 0.08) !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
   color: #FFFFFF !important;
   -webkit-box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.9) inset !important;
   box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.9) inset !important;
@@ -1687,7 +1687,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.basic.inverted.buttons .active.button,
 .ui.basic.inverted.active.button {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.2);
   color: #FFFFFF;
   text-shadow: none;
   -webkit-box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.7) inset;
@@ -16684,13 +16684,13 @@ ol.ui.list ol li,
 
 .ui.inverted.selection.list > .item:active,
 .ui.inverted.selection.list > .item:active {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.2);
   color: #ffffff;
 }
 
 .ui.inverted.selection.list > .item.active,
 .ui.inverted.selection.list > .item.active {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.2);
   color: #ffffff;
 }
 
@@ -23659,7 +23659,7 @@ ol.ui.horizontal.list li:before,
   border: 1px solid #BECAD6;
   -webkit-box-shadow: 0px 1px 2px 0 #BECAD6;
   box-shadow: 0px 1px 2px 0 #BECAD6;
-  border-radius: 0.35714286rem;
+  border-radius: 50%;
   min-height: 2.85714286em;
 }
 
@@ -23707,6 +23707,11 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.menu .item {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 0 21px;
+  margin-bottom: 32px;
   position: relative;
   vertical-align: middle;
   line-height: 1;
@@ -23720,7 +23725,7 @@ ol.ui.horizontal.list li:before,
   -ms-user-select: none;
   user-select: none;
   background: none;
-  padding: 0.92857143em 1.14285714em;
+  padding: 0.92857143em 0;
   text-transform: none;
   color: #3D5170;
   font-weight: normal;
@@ -23731,7 +23736,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.menu > .item:first-child {
-  border-radius: 0.35714286rem 0px 0px 0.35714286rem;
+  border-radius: 50% 0px 0px 50%;
 }
 
 /* Border */
@@ -23863,7 +23868,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.menu .dropdown.item .menu {
   min-width: calc(100% - 1px);
-  border-radius: 0em 0em 0.35714286rem 0.35714286rem;
+  border-radius: 0em 0em 50% 50%;
   background: #FFFFFF;
   margin: 0em 0px 0px;
   -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
@@ -23892,17 +23897,17 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.menu .ui.dropdown .menu > .item:hover {
-  background: rgba(0, 0, 0, 0.05) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
   color: #3d5170 !important;
 }
 
 .ui.menu .ui.dropdown .menu > .selected.item {
-  background: rgba(0, 0, 0, 0.05) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
   color: #3d5170 !important;
 }
 
 .ui.menu .ui.dropdown .menu > .active.item {
-  background: rgba(0, 0, 0, 0.03) !important;
+  background: rgba(255, 255, 255, 0.02) !important;
   font-weight: bold !important;
   color: #3d5170 !important;
 }
@@ -23922,7 +23927,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.secondary.menu .dropdown.item > .menu,
 .ui.text.menu .dropdown.item > .menu {
-  border-radius: 0.35714286rem;
+  border-radius: 50%;
   margin-top: 0.35714286em;
 }
 
@@ -23953,7 +23958,7 @@ ol.ui.horizontal.list li:before,
   margin: 0em 0em 0em 0em;
   -webkit-box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.08);
-  border-radius: 0em 0.35714286rem 0.35714286rem 0.35714286rem;
+  border-radius: 0em 50% 50% 50%;
 }
 
 .ui.vertical.menu .dropdown.item.upward .menu {
@@ -24080,8 +24085,8 @@ ol.ui.horizontal.list li:before,
 .ui.menu .link.item:hover,
 .ui.menu a.item:hover {
   cursor: pointer;
-  background: rgba(0, 0, 0, 0.03);
-  color: #3d5170;
+  background: rgba(255, 255, 255, 0.02);
+  color: #FFFFFF;
 }
 
 /*--------------
@@ -24091,8 +24096,8 @@ ol.ui.horizontal.list li:before,
 .ui.link.menu .item:active,
 .ui.menu .link.item:active,
 .ui.menu a.item:active {
-  background: rgba(0, 0, 0, 0.03);
-  color: #3d5170;
+  background: rgba(255, 255, 255, 0.02);
+  color: #FFFFFF;
 }
 
 /*--------------
@@ -24100,7 +24105,7 @@ ol.ui.horizontal.list li:before,
 ---------------*/
 
 .ui.menu .active.item {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   color: #3d5170;
   font-weight: normal;
   -webkit-box-shadow: none;
@@ -24117,8 +24122,8 @@ ol.ui.horizontal.list li:before,
 
 .ui.menu .active.item:hover,
 .ui.vertical.menu .active.item:hover {
-  background-color: rgba(0, 0, 0, 0.05);
-  color: #3d5170;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
 }
 
 /*--------------
@@ -24192,12 +24197,16 @@ Floated Menu / Item
   border-right: none;
 }
 
+.ui.vertical.menu .item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .ui.vertical.menu > .item:first-child {
-  border-radius: 0.35714286rem 0.35714286rem 0px 0px;
+  border-radius: 50% 50% 0px 0px;
 }
 
 .ui.vertical.menu > .item:last-child {
-  border-radius: 0px 0px 0.35714286rem 0.35714286rem;
+  border-radius: 50%;
 }
 
 /*--- Label ---*/
@@ -24227,7 +24236,6 @@ Floated Menu / Item
   content: '';
   top: 0%;
   left: 0px;
-  width: 100%;
   height: 1px;
   background: rgba(34, 36, 38, 0.1);
 }
@@ -24251,7 +24259,7 @@ Floated Menu / Item
 
 .ui.vertical.menu .item .menu a.item:hover,
 .ui.vertical.menu .item .menu .link.item:hover {
-  color: rgba(61, 81, 112, 0.85);
+  color: #FFFFFF;
 }
 
 .ui.vertical.menu .menu .item:before {
@@ -24261,22 +24269,21 @@ Floated Menu / Item
 /* Vertical Active */
 
 .ui.vertical.menu .active.item {
-  background: rgba(0, 0, 0, 0.05);
-  border-radius: 0em;
+  background: rgba(255, 255, 255, 0.2);
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
 .ui.vertical.menu > .active.item:first-child {
-  border-radius: 0.35714286rem 0.35714286rem 0em 0em;
+  border-radius: 50%;
 }
 
 .ui.vertical.menu > .active.item:last-child {
-  border-radius: 0em 0em 0.35714286rem 0.35714286rem;
+  border-radius: 50%;
 }
 
 .ui.vertical.menu > .active.item:only-child {
-  border-radius: 0.35714286rem;
+  border-radius: 50%;
 }
 
 .ui.vertical.menu .active.item .menu .active.item {
@@ -24463,11 +24470,11 @@ Floated Menu / Item
 }
 
 .ui.pagination.menu .item:last-child {
-  border-radius: 0em 0.35714286rem 0.35714286rem 0em;
+  border-radius: 0em 50% 50% 0em;
 }
 
 .ui.compact.menu .item:last-child {
-  border-radius: 0em 0.35714286rem 0.35714286rem 0em;
+  border-radius: 0em 50% 50% 0em;
 }
 
 .ui.pagination.menu .item:last-child:before {
@@ -24488,7 +24495,7 @@ Floated Menu / Item
 .ui.pagination.menu .active.item {
   border-top: none;
   padding-top: 0.92857143em;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 0.2);
   color: #3d5170;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -24549,7 +24556,7 @@ Floated Menu / Item
 .ui.secondary.menu .dropdown.item:hover,
 .ui.secondary.menu .link.item:hover,
 .ui.secondary.menu a.item:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   color: #3d5170;
 }
 
@@ -24558,7 +24565,7 @@ Floated Menu / Item
 .ui.secondary.menu .active.item {
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   color: #3d5170;
   border-radius: 0.35714286rem;
 }
@@ -24568,8 +24575,8 @@ Floated Menu / Item
 .ui.secondary.menu .active.item:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: rgba(0, 0, 0, 0.05);
-  color: #3d5170;
+  background: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
 }
 
 /* Inverted */
@@ -24582,12 +24589,12 @@ Floated Menu / Item
 .ui.secondary.inverted.menu .dropdown.item:hover,
 .ui.secondary.inverted.menu .link.item:hover,
 .ui.secondary.inverted.menu a.item:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.05);
   color: #ffffff !important;
 }
 
 .ui.secondary.inverted.menu .active.item {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.1);
   color: #ffffff !important;
 }
 
@@ -24938,15 +24945,14 @@ Floated Menu / Item
 
 .ui.vertical.icon.menu {
   display: inline-block;
-  width: auto;
+  width: 84px;
 }
 
 /* Item */
 
 .ui.icon.menu .item {
-  height: auto;
   text-align: center;
-  color: #1B1C1D;
+  color: #FFFFFF;
 }
 
 /* Icon */
@@ -24981,7 +24987,7 @@ Floated Menu / Item
 /* Inverted */
 
 .ui.inverted.icon.menu .item {
-  color: #FFFFFF;
+  color: #1B1C1D;
 }
 
 /*--------------
@@ -25209,7 +25215,7 @@ Floated Menu / Item
 .ui.inverted.menu .dropdown.item:hover,
 .ui.inverted.menu .link.item:hover,
 .ui.inverted.menu a.item:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.05);
   color: #ffffff;
 }
 
@@ -25223,14 +25229,14 @@ Floated Menu / Item
 
 .ui.inverted.menu a.item:active,
 .ui.inverted.menu .link.item:active {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.05);
   color: #ffffff;
 }
 
 /*--- Active ---*/
 
 .ui.inverted.menu .active.item {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.1);
   color: #ffffff !important;
 }
 
@@ -25250,7 +25256,7 @@ Floated Menu / Item
 /*--- Active Hover ---*/
 
 .ui.inverted.menu .active.item:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.1);
   color: #FFFFFF !important;
 }
 
@@ -25511,7 +25517,7 @@ Floated Menu / Item
 }
 
 .ui.compact.menu .item:last-child {
-  border-radius: 0em 0.35714286rem 0.35714286rem 0em;
+  border-radius: 0em 50% 50% 0em;
 }
 
 .ui.compact.menu .item:last-child:before {
@@ -25613,12 +25619,13 @@ Floated Menu / Item
   z-index: 101;
   margin: 0em;
   width: 100%;
+  border-radius: 0px !important;
 }
 
 .ui.menu.fixed,
 .ui.menu.fixed .item:first-child,
 .ui.menu.fixed .item:last-child {
-  border-radius: 0px !important;
+  border-radius: 50%;
 }
 
 .ui.fixed.menu,
@@ -25784,7 +25791,7 @@ Floated Menu / Item
   margin-bottom: 0em;
   top: 0px;
   margin-top: 1rem;
-  border-radius: 0.35714286rem 0.35714286rem 0em 0em;
+  border-radius: 50% 50% 0em 0em;
 }
 
 .ui.menu[class*="top attached"]:first-child {
@@ -25800,7 +25807,7 @@ Floated Menu / Item
   margin-bottom: 1rem;
   -webkit-box-shadow: 0px 1px 2px 0 #BECAD6, none;
   box-shadow: 0px 1px 2px 0 #BECAD6, none;
-  border-radius: 0em 0em 0.35714286rem 0.35714286rem;
+  border-radius: 0em 0em 50% 50%;
 }
 
 .ui[class*="bottom attached"].menu:last-child {
@@ -25810,11 +25817,11 @@ Floated Menu / Item
 /* Attached Menu Item */
 
 .ui.top.attached.menu > .item:first-child {
-  border-radius: 0.35714286rem 0em 0em 0em;
+  border-radius: 50% 0em 0em 0em;
 }
 
 .ui.bottom.attached.menu > .item:first-child {
-  border-radius: 0em 0em 0em 0.35714286rem;
+  border-radius: 0em 0em 0em 50%;
 }
 
 /* Tabular Attached */
@@ -27054,7 +27061,7 @@ Floated Menu / Item
 
 .ui.selectable.inverted.table tbody tr:hover,
 .ui.inverted.table tbody tr td.selectable:hover {
-  background: rgba(255, 255, 255, 0.08) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
   color: #ffffff !important;
 }
 
@@ -27581,9 +27588,9 @@ Floated Menu / Item
 }
 
 .ui.inverted.sortable.table thead th:hover {
-  background: rgba(255, 255, 255, 0.08) -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
-  background: rgba(255, 255, 255, 0.08) -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: rgba(255, 255, 255, 0.08) linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: rgba(255, 255, 255, 0.2) -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
+  background: rgba(255, 255, 255, 0.2) -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: rgba(255, 255, 255, 0.2) linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   color: #ffffff;
 }
 
@@ -35971,7 +35978,7 @@ a.ui.nag {
 ---------------*/
 
 .ui.inverted.progress {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.2);
   border: none;
 }
 
